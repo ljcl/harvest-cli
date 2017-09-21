@@ -1,0 +1,29 @@
+{
+  "name": "harvest",
+  "version": "0.0.0",
+  "private": true,
+  "bin": {
+    "harvest": "./bin/harvest.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": {
+    "name": "Luke Clark",
+    "email": "luke@lukeclark.com.au",
+    "url": "https://github.com/ljcl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ljcl/harvest"
+  },
+  "license": "MIT",
+  "bugs": "https://github.com/ljcl/harvest/issues",
+  "dependencies": {
+    "autocmdr": "~0.0.7",
+    "commander": "~2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^21.1.0"
+  }
+}
